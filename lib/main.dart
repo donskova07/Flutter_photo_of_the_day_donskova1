@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
+
 import 'photo_page.dart';
+
 void main() {
   runApp(const MyApp());
 }
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return MaterialApp(
       title: 'фото дня',
       debugShowCheckedModeBanner: false,
@@ -17,7 +20,6 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const PhotoPage(),
-      
     );
   }
 }
